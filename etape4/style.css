@@ -1,0 +1,54 @@
+/* Conteneur du tableau */
+#table_container {
+    text-align: center;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+/* Tableau */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Cellules */
+th, td {
+    border: 1px solid #333;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+/* Entête */
+thead th {
+    background-color: #4a6fa5;
+    color: #ffffff;
+}
+
+/* Colonne N° */
+.col_number {
+    width: 40px;
+}
+
+/* Colonnes texte */
+.col_text {
+    min-width: 90px;
+}
+
+/* Colonne Select */
+.col_chkbox {
+    width: 60px;
+}
+
+/* Espace Résumé */
+#container_summary {
+    width: 60%;
+    margin: 10px auto;
+    padding: 8px;
+    background-color: #eef3fa;
+    border: 1px solid #4a6fa5;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#container_summary p {
+    margin: 2px 0;
+}
