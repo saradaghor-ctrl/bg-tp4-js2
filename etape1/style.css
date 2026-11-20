@@ -1,0 +1,39 @@
+/* Conteneur du tableau */
+#table_container {
+    text-align: center;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+/* Tableau */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Cellules */
+th, td {
+    border: 1px solid #333;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+/* Entête */
+thead th {
+    background-color: #4a6fa5;
+    color: #ffffff;
+}
+
+/* Colonne N° */
+.col_number {
+    width: 40px;
+}
+
+/* Colonnes texte */
+.col_text {
+    min-width: 90px;
+}
+
+/* Colonne Select */
+.col_chkbox {
+    width: 60px;
+}
